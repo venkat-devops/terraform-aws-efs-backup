@@ -301,6 +301,6 @@ Resources:
         - Id: myPeriod
           StringValue: !Ref myPeriod
 
-# Outputs:
-  # DataPipelineId:
-    # Value: !Ref DataPipelineEFSBackup
+Outputs:
+  DataPipelineId:
+    Value: !Ref DataPipelineEFSBackup
